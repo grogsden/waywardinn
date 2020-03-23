@@ -1,0 +1,29 @@
+{
+  "name": "waystoneinn",
+  "version": "1.0.0",
+  "description": "Website for the fictional Waystone Inn",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grogsden/waystoneinn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grogsden/waywardinn/issues"
+  },
+  "homepage": "https://github.com/grogsden/waystoneinn#readme"
+}
