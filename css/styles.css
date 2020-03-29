@@ -1,12 +1,13 @@
 .jumbotron {
-    margin: 0;
+    margin: 0px;
     background-color: rgba(0,0,0,0.7);
     color: white;
   }
 
 .navbar {
-  background-color: rgba(0,0,0,0.7);
-  border-bottom: solid 1px red;
+  background-color:rgba(0,0,0, 0.7);
+  border-bottom: solid 3px #6a2827;
+  margin-bottom: 0px;
 
 
 }
@@ -16,14 +17,14 @@
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    height: 90vh;
+    height: 100vh;
   }
 
   .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
   }
 
   .navbar-nav.navbar-center {
@@ -44,8 +45,8 @@
     padding-left: 37px;
     padding-right: 36px;
     line-height: 55px;
-    margin: 0;
-    background-color: red;
+    margin-bottom: 0;
+    background-color:#6a2827;
 }
 .welcome {
   text-align: center;
@@ -57,4 +58,8 @@
   padding: 20px;
   width: 500px;
   height: auto;
+}
+
+.para {
+  padding: 20px;
 }
