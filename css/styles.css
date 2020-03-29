@@ -1,6 +1,60 @@
 .jumbotron {
     margin: 0;
-    padding: 30px;
     background-color: rgba(0,0,0,0.7);
     color: white;
   }
+
+.navbar {
+  background-color: rgba(0,0,0,0.7);
+  border-bottom: solid 1px red;
+
+
+}
+
+  .bgimg {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  
+}
+
+
+.headerLink a {
+    display: block;
+    
+    height: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    padding-left: 37px;
+    padding-right: 36px;
+    line-height: 55px;
+    margin: 0;
+    background-color: red;
+}
+.welcome {
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+}
+
+.img {
+  padding: 20px;
+  width: 500px;
+  height: auto;
+}
