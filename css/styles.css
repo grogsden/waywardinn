@@ -8,30 +8,36 @@
   background-color:rgba(0,0,0, 0.7);
   border-bottom: solid 3px #6a2827;
   margin-bottom: 0px;
-
-
 }
 
-  .bgimg {
+.menu-item {
+font-family: 'Martel', serif;
+color: white;
+}
+
+.bgimg {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-  }
+}
 
-  .center {
+
+logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-  }
+    }
 
-  .navbar-nav.navbar-center {
+
+
+.navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
-  
+
 }
 
 
@@ -48,6 +54,7 @@
     margin-bottom: 0;
     background-color:#6a2827;
 }
+
 .welcome {
   text-align: center;
   padding-top: 50px;
@@ -62,4 +69,50 @@
 
 .para {
   padding: 20px;
+}
+
+.modal-dialog {
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width:none !important;
+  
+
+}
+
+.modal-content {
+  height: auto !important;
+  min-height: 100% !important;
+  border-radius: 0 !important;
+  background-color: rgba(0,0,0,0.7);
+  
+ 
+
+
+}
+
+.modal-header {
+  border-bottom: 1px solid #6a2827 !important;
+  font-family: 'Martel', serif;
+  font-weight: bold;
+  size: 60px;
+  color: white;
+  font-size: 2em;
+}
+.modal-body {
+   padding-top: 10%;
+  font-size: 2em;
+  font-family: 'Martel', serif;
+  color: white;
+}
+
+.modal-footer {
+  border-top: 1px solid #6a2827 !important;
+}
+
+.nav-link{
+  color: white;
+  text-align: right;
+  
 }
