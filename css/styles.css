@@ -1,3 +1,10 @@
+h3{
+font-weight: 700;
+color: #ffffff;
+font-style: italic;
+font-size: 72px;
+font-family: 'Martel', serif;
+}
 .jumbotron {
     margin: 0px;
     background-color: rgba(0,0,0,0.7);
