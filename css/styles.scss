@@ -1,0 +1,210 @@
+$font: 'Martel', serif;
+$font-color-main: white;
+$bg-color: rgba(0,0,0,0.7);
+$primary-color: #6a2827;
+
+
+
+h3{
+    font-weight: 700;
+    color: $font-color-main;
+    font-style: italic;
+    font-size: 72px;
+    font-family: $font;
+    }
+
+.jumbotron {
+        margin: 0px;
+        background-color: $bg-color;
+        color: $font-color-main;
+      }
+    
+.navbar {
+      background-color:$bg-color;
+      border-bottom: solid 3px $primary-color;
+      margin-bottom: 0px;
+    }
+    
+    
+    
+.menu-item {
+    font-family: $font;
+    color: $font-color-main;
+    }
+    
+.bgimg {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+    }
+.bgimg-footer {
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-attachment: fixed;
+      
+    }
+    .site-footer {
+      background-color:rgba(0,0,0, 0.1);
+      border-top: solid 3px $primary-color;
+      padding-top: 20px;
+      color: $font-color-main;
+      font-family: $font;
+    }
+    .logo2 {
+        position: absolute;
+        left:0;
+        right:0;
+        margin-left:auto;
+        margin-right:auto; ; 
+        }
+    
+    .xbutton {
+      font-size: 2em; 
+      color: $font-color-main;
+      position: relative;
+      font-family: $font;
+    
+    }
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    
+    }
+    
+    
+    .button {
+        display: block;
+        height: 100%;
+        font-size: 1.2em;
+        font-weight: 500;
+        color: $font-color-main;
+        padding-left: 37px;
+        padding-right: 36px;
+        line-height: 55px;
+        margin-bottom: 0px;
+        background-color: $primary-color;
+        font-family: $font-color-main;
+    }
+    form {
+      padding: 20px
+    }
+    
+    .book-button {
+      display: block;
+      height: 100%;
+      font-size: 1.1em;
+      font-weight: 500;
+      color: $font-color-main;
+      padding-left: 37px;
+      padding-right: 36px;
+      line-height: 55px;
+      margin: 10px;
+      background-color: $primary-color;
+      font-family: $font;
+      border: none;
+    }
+    .welcome {
+      text-align: center;
+      padding-top: 50px;
+      color: $font-color-main;
+    
+    }
+    
+    img {
+      padding: 20px;
+      width: 500px;
+      height: auto;
+    }
+    
+    .para {
+      padding: 20px;
+    }
+    
+    .menu-modal.modal-dialog {
+      width: 100% !important;
+      height: 100% !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      max-width:none !important;
+      
+    
+    }
+    
+    .menu-modal.modal-content {
+      height: auto !important;
+      min-height: 100% !important;
+      border-radius: 0 !important;
+      background-color: rgba(0,0,0,0.9);
+      
+     
+    
+    
+    }
+    
+    .menu-modal .modal-header {
+      border-bottom: 3px solid $primary-color !important;
+      font-family: $font;
+      font-weight: bold;
+      size: 60px;
+      color: $font-color-main;
+      font-size: 2em;
+    }
+    .menu-modal .modal-body {
+      padding-top: 5%;
+      font-size: 1em;
+      font-family: $font;
+      color:$font-color-main;
+    }
+    
+    .nav-link{
+      color:$font-color-main;
+      text-align: center;
+      font-size: 1.1em;
+      font-family: $font;
+    }
+    
+    .form-control {
+      background: rgb(39, 39, 39);
+     
+      border:2px solid $primary-color;
+      border-radius:0;
+      box-shadow:none;
+      color: $font-color-main;
+      font-family: $font;
+    }
+    
+    .form-label {
+      color: $font-color-main;
+      font-family: $font;
+    }
+    
+    .booking-form select.form-control {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+    
+    .booking-form select.form-control+.select-arrow {
+        position: absolute;
+        right: 10px;
+        top: 25px;
+        width: 32px;
+        line-height: 32px;
+        height: 32px;
+        text-align: center;
+        pointer-events: none;
+        color: #fff;
+      font-size: 30px;
+      
+    }
+    
+    .booking-form select.form-control+.select-arrow:after {
+        content: '\21A1';
+        display: block;
+    
+    }
+    
