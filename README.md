@@ -1,4 +1,3 @@
 # waystoneinn
-Website for the fictional Waystone Inn made with Bootstrap
-
+Website for the fictional Waystone Inn.
 
